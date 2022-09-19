@@ -1,0 +1,18 @@
+#player{
+  width: 200px;
+  position:absolute;
+  top: 20px;
+  left:50px;
+  transform: rotate(10deg);
+}
+
+.bullet{
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  position: absolute;
+  transition: 1s all linear;
+  z-index: -1;
+  border-radius: 50px;
+}
+
